@@ -303,6 +303,46 @@ a {
   text-align: center;
 }
 
+/* Clients section */
+
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-container {
+  height: 182px;
+  text-align: center;
+}
+
+.clients-title {
+  margin: 0;
+  margin-bottom: 50px;
+
+  color: var(--title-text-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-list-items {
+  height: 90px;
+  width: 170px;
+  left: 215px;
+  border-radius: 4px;
+
+  border-top: 1px solid #afb1b8;
+  border-right: 1px solid #afb1b8;
+  border-bottom: 1px solid #afb1b8;
+  border-left: 1px solid #afb1b8;
+}
+
 /* footer */
 
 .footer {
@@ -358,6 +398,44 @@ a {
 .footer-contacts:hover,
 .footer-contacts:focus {
   color: var(--accent-color);
+}
+
+/* Connection-List */
+
+.footer-connection {
+  /* display: flex; */
+  margin-left: 70px;
+  height: 80px;
+  width: 206px;
+}
+
+.footer-main {
+  display: flex;
+  align-items: baseline;
+}
+
+.connection-title {
+  margin: 0;
+  margin-bottom: 20px;
+  color: var(--second-txt-bcg-color);
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.connection-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.connection-items {
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
 }
 
 /* portfolio */
@@ -416,6 +494,8 @@ a {
 .button-menu:focus {
   background-color: var(--button-active-bcg-clr);
   color: var(--second-txt-bcg-color);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.12),
+    0px 3px 1px rgba(0, 0, 0, 0.12);
 }
 
 /* photocard set */
@@ -450,6 +530,12 @@ a {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+.photocard-set-items:hover,
+.photocard-set-items:focus {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .photocard-set-description {

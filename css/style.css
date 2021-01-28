@@ -130,6 +130,11 @@ a {
 /* hero */
 
 .hero-section {
+  background-image: url(../images/Background_imgs/background_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+
   background-color: var(--hero-footer-bcg-clr);
   text-align: center;
   padding-top: 200px;

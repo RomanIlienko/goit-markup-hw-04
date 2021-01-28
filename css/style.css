@@ -186,6 +186,18 @@ a {
 
 /* advantage section */
 
+.thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+
+  margin-bottom: 30px;
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+}
+
 .advantage-list {
   display: flex;
   justify-content: space-between;

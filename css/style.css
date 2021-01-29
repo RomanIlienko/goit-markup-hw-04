@@ -61,11 +61,6 @@ a {
   display: flex;
 }
 
-.mail-header {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
 .site-nav .link {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -125,6 +120,25 @@ a {
 .site-nav-contacts a:focus,
 .site-nav-contacts a:hover {
   color: var(--accent-color);
+}
+
+/* SVG Icon */
+.header-link {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--main-text-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /* hero */
@@ -425,7 +439,6 @@ a {
 /* Connection-List */
 
 .footer-connection {
-  /* display: flex; */
   margin-left: 70px;
   height: 80px;
   width: 206px;

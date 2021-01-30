@@ -638,6 +638,7 @@ a {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  outline: 1px solid var(--team-border-clr);
 }
 
 .photocard-set-items:hover,
@@ -651,10 +652,6 @@ a {
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
-  border-top: 1px solid var(--team-border-clr);
-  border-right: 1px solid var(--team-border-clr);
-  border-bottom: 1px solid var(--team-border-clr);
-  border-left: 1px solid var(--team-border-clr);
 }
 
 .portfolio-text {
